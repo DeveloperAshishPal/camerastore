@@ -1,0 +1,22 @@
+{
+  "development": {
+    "mysql": {
+      "host": "localhost",
+      "user": "root",
+      "password": "2307",
+      "database": "camerastore",
+      "port": 3306
+    },
+    "authentication": {
+      "issuer": "camerastore",
+      "audience": "user",
+      "secret": "secret"
+    },
+    "identity": {
+      "jwtSecret": "171e93cd1630d7253c9258cc48edfa65"
+    },
+    "ports": {
+      "BACKEND_APP_PORT": 21000
+    }
+  }
+}
